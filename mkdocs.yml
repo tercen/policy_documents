@@ -1,11 +1,11 @@
-site_name: Tercen Starter Guide
+site_name: Tercen Policy Documents
 docs_dir: docs/
 site_url: https://tercen.com
-repo_url: https://github.com/tercen/mkdoc_playground
-repo_name: tercen/starter_guide
+repo_url: https://github.com/tercen/policy_documents
+repo_name: tercen/policy_documents
 edit_uri: edit/main/docs/
 site_author: "Tercen Authors"
-site_description: "Documentation template"
+site_description: "Tercen standard terms and conditions"
 use_directory_urls: true
 
 copyright: Copyright &copy; 2024 Tercen
@@ -42,7 +42,7 @@ extra_css:
 plugins:
   - search
   - git-committers:
-      repository: tercen/mkdoc_playground
+      repository: tercen/policy_documents
       branch: main
   - git-revision-date-localized:
       enable_creation_date: true
@@ -102,39 +102,10 @@ extra:
   version:
     provider: mike
 
-#nav:
-#  - Home: index.md
-#  - Getting started:
-#      - Guidelines: intro_guidelines.md
-#      - Getting started:
-#          - Core concepts: getting-started_core-concepts.md
-#          - Setting up Tercen Studio:    getting-started_setup-tercen-studio.md
-#      - R Operator development:
-#          - General workflow: operator-dev_intro.md
-#          - "Walkthrough example: R operator": operator-dev_create.md
-#          - Deploying an R operator:   operator-dev_deploy.md
-#          - Improving an operator:   operator-dev_improve.md
-#      - Python Operator development:
-#          - Getting familiar with Tercen Studio: operator-dev_python.md
-#      - Advanced concepts:
-#          - Continuous Integration Workflow: operator-dev_ci.md
-#          - Installing an Operator:    operator-dev_installation.md
-#          - Common patterns:    operator-dev_patterns.md
-#      - Templates:
-#          - Building a template: templates-apps_templates.md
-#      - Apps:
-#          - Building an app: templates-apps_apps.md
-#      - Library:
-#          - Tercen Library: library.md
-#      - Best practices:
-#          - Development guidelines: best-practices_guidelines.md
-#          - Using tim:    best-practices_using-tim.md
-#      - Troubleshooting:
-#          - Common operator issues: troubleshooting_common-issues.md
-#          - CI and Github Actions:   troubleshooting_ci.md
-#      - Going forward:
-#          - Next steps: going-forward_next-steps.md
-#      - Appendix:
-#          - Glossary: appendix_glossary.md
-#          - Organisation setup:   appendix_organisation-setup.md
-#          - Tercen Studio:   appendix_tercen-studio.md
+nav:
+  - Introduction: index.md
+    - Privacy Policy: Privacy.md
+    - Terms of Service: terms-of-service.md
+    - Cookies and Sub-processors: cookies-and-subprocesses.md
+    - Professiona Services T&C: Terms-and-Conditions-Professional-Services.md
+    - Licence: policy-licence.md
