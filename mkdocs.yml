@@ -104,8 +104,10 @@ extra:
 
 nav:
   - Introduction: index.md
-    - Privacy Policy: Privacy.md
-    - Terms of Service: terms-of-service.md
-    - Cookies and Sub-processors: cookies-and-subprocesses.md
-    - Professiona Services T&C: Terms-and-Conditions-Professional-Services.md
-    - Licence: policy-licence.md
+  - Tutorial:
+      - Privacy Policy: Privacy.md
+      - Terms of Service: terms-of-service.md
+      - Cookies and Sub-processors: cookies-and-subprocesses.md
+      - Professiona Services T&C: Terms-and-Conditions-Professional-Services.md
+      - Licence: policy-licence.md
+      
