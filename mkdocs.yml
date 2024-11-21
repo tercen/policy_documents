@@ -18,6 +18,8 @@ theme:
   logo: ./images/tercen-logo-sq.svg
   icon:
     repo: fontawesome/brands/github
+  palette:
+    primary: white
   features:
     - content.tabs.link
     - instant
