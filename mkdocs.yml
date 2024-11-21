@@ -1,4 +1,4 @@
-site_name: Tercen Policy Documents
+site_name: Policy Documents
 docs_dir: docs/
 site_url: https://tercen.com
 repo_url: https://github.com/tercen/policy_documents
@@ -19,7 +19,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   palette:
-    primary: white
+    primary: custom
   features:
     - content.tabs.link
     - instant
@@ -40,7 +40,7 @@ theme:
     - content.action.edit
     - content.action.view
 extra_css:
-  - stylesheets/style.css
+  - stylesheets/extra.css
 plugins:
   - search
   - git-committers:
