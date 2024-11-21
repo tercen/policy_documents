@@ -15,7 +15,7 @@ theme:
   # custom_dir: .docs/overrides/
   font: false
   favicon: https://tercen.com/_assets/brand/fav.png
-  logo: ./images/TercenID_Final_TM_C.svg
+  logo: ./images/TercenID_Final_TM_B.svg
   icon:
     repo: fontawesome/brands/github
   palette:
