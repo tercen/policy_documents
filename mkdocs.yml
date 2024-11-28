@@ -15,7 +15,7 @@ theme:
   # custom_dir: .docs/overrides/
   font: false
   favicon: https://tercen.com/_assets/brand/fav.png
-  logo: ./images/Tercen Logo white_vert_B.png
+  logo: ./images/Small Logo white.png
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -27,7 +27,7 @@ theme:
     - navigation.path
     - navigation.sections
     #    - navigation.expand
-    - navigation.tabs
+    #    - navigation.tabs
     #    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
@@ -103,13 +103,11 @@ markdown_extensions:
 extra:
   version:
     provider: mike
-
 nav:
-  - Introduction: index.md
-  - Policy Documents:
-      - Privacy Policy: Privacy.md
-      - Terms of Service: terms-of-service.md
-      - Cookies and Sub-processors: cookies-and-subprocesses.md
-      - Professional Services T&C: Terms-and-Conditions-Professional-Services.md
-      - Licence: policy-licence.md
+  - Policy Documents: index.md
+  - Privacy Policy: Privacy.md
+  - Terms of Service: terms-of-service.md
+  - Cookies and Sub-processors: cookies-and-subprocesses.md
+  - Professional Services T&C: Terms-and-Conditions-Professional-Services.md
+  - Licence: policy-licence.md
       
