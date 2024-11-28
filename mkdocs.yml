@@ -104,7 +104,7 @@ extra:
   version:
     provider: mike
 nav:
-  - Policy Documents: index.md
+  - Introduction: index.md
   - Privacy Policy: Privacy.md
   - Terms of Service: terms-of-service.md
   - Cookies and Sub-processors: cookies-and-subprocesses.md

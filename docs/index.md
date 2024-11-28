@@ -1,3 +1,3 @@
-# Home
+# Introduction
 
 Tercen policy documents.
